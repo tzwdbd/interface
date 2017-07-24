@@ -40,7 +40,7 @@ public class BrushOrderDetail implements Serializable{
 	private Date orderTime;
 	private Date dispatchTime;
 	private Integer company;
-	private String isDirect;
+	private String isDirect;//yes表示第三方商品　
 	private String isManual;
 	private String manualMan;
 	private String groupNumber;

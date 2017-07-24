@@ -37,7 +37,7 @@ public class OrderAccount implements Serializable {
 
     private Double balance;
 
-    private Integer volume;
+    private Integer volume;//1表示可以刷评论的账号
 
     private Integer threshDaily;
 

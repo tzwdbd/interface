@@ -9,7 +9,6 @@ public class BrushInfo implements Serializable{
 	private static final long serialVersionUID = 1610542842259148226L;
 	private Long id;
 	private Long brushUserId;
-	private String haitaoItemId;
 	private String status;
 	private Date startTime;
 	private Date endTime;
@@ -40,13 +39,6 @@ public class BrushInfo implements Serializable{
 
 	public void setBrushUserId(Long brushUserId) {
 		this.brushUserId=brushUserId;
-	}
-	public String getHaitaoItemId() {
-		return haitaoItemId;
-	}
-
-	public void setHaitaoItemId(String haitaoItemId) {
-		this.haitaoItemId=haitaoItemId;
 	}
 	public String getStatus() {
 		return status;
