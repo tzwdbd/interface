@@ -48,6 +48,7 @@ public class RobotOrderDetail implements Serializable {
     private String isDirect;
     private Integer groupNumber;
     private Date dispatchTime;
+    private  String totalPromotion;
     
     //DB没有
     private String balanceWb;
@@ -371,6 +372,14 @@ public class RobotOrderDetail implements Serializable {
 
 	public void setDispatchTime(Date dispatchTime) {
 		this.dispatchTime = dispatchTime;
+	}
+
+	public String getTotalPromotion() {
+		return totalPromotion;
+	}
+
+	public void setTotalPromotion(String totalPromotion) {
+		this.totalPromotion = totalPromotion;
 	}
 
 	@Override
