@@ -15,4 +15,5 @@ public interface TaskService {
 	
 	public TaskResult burshShipService(Task task);//刷单爬物流
 	
+	public TaskResult CheckGiftCard(Task task);//爬去礼品卡余额
 }
