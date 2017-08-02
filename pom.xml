@@ -11,7 +11,7 @@
 	<groupId>haitao-cloud-interface</groupId>
     <artifactId>haitao-cloud-interface</artifactId>
     <packaging>jar</packaging>
-    <version>10.0.0.100.025</version>
+    <version>10.0.0.100.027</version>
     
 
     <distributionManagement>

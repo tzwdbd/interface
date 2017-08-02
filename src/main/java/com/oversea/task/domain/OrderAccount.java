@@ -11,7 +11,7 @@ public class OrderAccount implements Serializable {
 
     private String accountType;
 
-    private String deviceId;
+    private Integer deviceId;
 
     private String payAccount;
 
@@ -67,15 +67,16 @@ public class OrderAccount implements Serializable {
     
     private String rechargeMoney;
 
-    public String getDeviceId() {
-        return deviceId;
-    }
 
-    public void setDeviceId(String deviceId) {
-        this.deviceId = deviceId;
-    }
+    public Integer getDeviceId() {
+		return deviceId;
+	}
 
-    public void setDeviceIp(String deviceIp) {
+	public void setDeviceId(Integer deviceId) {
+		this.deviceId = deviceId;
+	}
+
+	public void setDeviceIp(String deviceIp) {
         this.deviceIp = deviceIp;
     }
 
