@@ -49,6 +49,7 @@ public class RobotOrderDetail implements Serializable {
     private Integer groupNumber;
     private Date dispatchTime;
     private  String totalPromotion;
+    private  Long fromId;
     
     //DB没有
     private String balanceWb;
@@ -380,6 +381,14 @@ public class RobotOrderDetail implements Serializable {
 
 	public void setTotalPromotion(String totalPromotion) {
 		this.totalPromotion = totalPromotion;
+	}
+
+	public Long getFromId() {
+		return fromId;
+	}
+
+	public void setFromId(Long fromId) {
+		this.fromId = fromId;
 	}
 
 	@Override
