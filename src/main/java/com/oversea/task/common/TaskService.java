@@ -17,4 +17,5 @@ public interface TaskService {
 	
 	public TaskResult CheckGiftCard(Task task);//爬去礼品卡余额
 	
+	public TaskResult productOrderCheckService(Task task);//校验商品是否可以售卖
 }
