@@ -18,4 +18,8 @@ public interface TaskService {
 	public TaskResult CheckGiftCard(Task task);//爬去礼品卡余额
 	
 	public TaskResult productOrderCheckService(Task task);//校验商品是否可以售卖
+	
+	public TaskResult manualOrder(Task task);//手动处理订单
+	
+	public TaskResult manualShip(Task task);//手动处理订单
 }
