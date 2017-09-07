@@ -49,6 +49,7 @@ public class RobotOrderDetail implements Serializable {
     private Integer groupNumber;
     private Date dispatchTime;
     private  String totalPromotion;
+    private  String totalPay;
     private  Long fromId;
     
     //DB没有
@@ -381,6 +382,14 @@ public class RobotOrderDetail implements Serializable {
 
 	public void setTotalPromotion(String totalPromotion) {
 		this.totalPromotion = totalPromotion;
+	}
+
+	public String getTotalPay() {
+		return totalPay;
+	}
+
+	public void setTotalPay(String totalPay) {
+		this.totalPay = totalPay;
 	}
 
 	public Long getFromId() {
