@@ -22,4 +22,7 @@ public interface TaskService {
 	public TaskResult manualOrder(Task task);//手动处理订单
 	
 	public TaskResult manualShip(Task task);//手动处理订单
+	
+	public TaskResult externalOrder(Task task);//第三方自动下单
+	public TaskResult externalShip(Task task);//第三方自动爬物流
 }
