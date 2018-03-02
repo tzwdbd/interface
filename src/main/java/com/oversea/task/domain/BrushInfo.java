@@ -26,6 +26,7 @@ public class BrushInfo implements Serializable{
 	private Date gmtModified;
 	private Long operatorId;
 	private String productName;
+	private String shopName;
 	public Long getId() {
 		return id;
 	}
@@ -159,5 +160,13 @@ public class BrushInfo implements Serializable{
 
 	public void setProductName(String productName) {
 		this.productName = productName;
+	}
+
+	public String getShopName() {
+		return shopName;
+	}
+
+	public void setShopName(String shopName) {
+		this.shopName = shopName;
 	}
 }

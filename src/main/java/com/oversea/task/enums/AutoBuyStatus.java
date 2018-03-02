@@ -64,6 +64,7 @@ public enum AutoBuyStatus implements Serializable {
     AUTO_SKU_THIRD_PRODUCT(1207, "该商品是第三方商品,不支持购买"),
     AUTO_SKU_CART_NOT_FIND(1208, "找不到加购物车按钮,会员商品,账号不支持购买"),
     AUTO_SKU_SELECT_SUCCESS(1300, "选择sku成功"),
+    AUTO_SKU_ADD_SUCCESS(1301, "加入购物车成功"),
 
     AUTO_ORDER_TASK_TIME_OUT(1500, "服务端超时"),
     AUTO_ORDER_PARAM_IS_NULL(1600, "所需参数为空"),
@@ -90,7 +91,12 @@ public enum AutoBuyStatus implements Serializable {
 	AUTO_CHECK_REVIEW_FAIL(1910,"检查review，review失败"),
 	AUTO_CHECK_REVIEW_SUCCESS(1911,"检查review，review成功"),
 	AUTO_CHECK_REVIEW_EXCEPTION(1912,"检查review异常"),
-	AUTO_CHECK_REVIEW_NEVER_REVIEW(1913,"检查review,还未review")
+	AUTO_CHECK_REVIEW_NEVER_REVIEW(1913,"检查review,还未review"),
+	AUTO_STAR(4000,"点赞初始状态"),
+	AUTO_STAR_STATUS(4100,"点赞状态"),
+	AUTO_STAR_ING(4200,"点赞中"),
+	AUTO_STAR_FAIL(4210,"点赞失败"),
+	AUTO_STAR_SUCCESSL(4300,"点赞成功")
 	;
 	
 	
