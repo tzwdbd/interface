@@ -25,4 +25,5 @@ public interface TaskService {
 	
 	public TaskResult externalOrder(Task task);//第三方自动下单
 	public TaskResult externalShip(Task task);//第三方自动爬物流
+	public TaskResult skyxShip(Task task);
 }
